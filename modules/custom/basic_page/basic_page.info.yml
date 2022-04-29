@@ -1,0 +1,5 @@
+name: "Basic Page Module"
+description: "This is My First Ever Custom Module"
+core_version_requirement: ^8 || ^9
+type: module
+package: Custom Module

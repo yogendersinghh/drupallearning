@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-container div {
+  height: 5vh;
+  margin-right: 50px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.flex-container div:hover {
+  border-top: 4px inset rgb(106, 106, 235);
+  border-bottom: 4px inset rgb(106, 106, 235);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sidenav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgb(12, 19, 59);
+}
+.sidenav div {
+  /* background-color: ; */
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: -90px;
+}
+.flex-music {
+  display: flex;
+  width: 100%;
+}
+.flex-music .music {
+  width: 100%;
+}
+.flex-music .text {
+  float: right;
+  color: black;
+}
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+
+  position: relative;
+  /* top:150px; */
+  left: 130px;
+}
+
+.song1 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 10%;
+  height: 100%;
+}
+
+.middle {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), #78f0e4);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.song1:hover .image {
+  opacity: 0.3;
+}
+.song1:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 40%;
+  left: 40%;
+}
+.song2 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 50%;
+}
+.song2:hover .image {
+  opacity: 0.3;
+}
+.song2:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+.song3 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 50%;
+}
+.song3:hover .image {
+  opacity: 0.3;
+}
+.song3:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+.song4 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 50%;
+}
+.song4:hover .image {
+  opacity: 0.3;
+}
+.song4:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+
+#bhajans {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  height: 100%;
+  position: relative;
+  /* top:150px; */
+  left: 130px;
+}
+
+.song5 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 100%;
+}
+.song5:hover .image {
+  opacity: 0.3;
+}
+.song5:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+
+.song6 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 50%;
+}
+.song6:hover .image {
+  opacity: 0.3;
+}
+.song6:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+
+.song7 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 50%;
+}
+.song7:hover .image {
+  opacity: 0.3;
+}
+.song7:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+
+.song8 {
+  position: relative;
+  width: 10%;
+  margin: 20px;
+  height: 50%;
+}
+.song8:hover .image {
+  opacity: 0.3;
+}
+.song8:hover .middle {
+  height: 100%;
+  opacity: 1;
+}
+a {
+  text-decoration: none;
+  color: white;
+  /* position: absolute;
+left:130px; */
+}
+a:active {
+  color: green;
+}
+footer {
+  /* position: relative; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  position: absolute;
+  left: 130px;
+  height: 300px;
+  background-image: linear-gradient(rgb(61, 59, 59), black);
+}
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+  /* position: absolute;
+left:130px; */
+  margin-left: 20px;
+  margin-right: -10px;
+}
+.one .name {
+  width: auto;
+  margin-top: 50px;
+}
+.one .facebook {
+  color: blue;
+}
+.list-one {
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+}
+
+.list-one h3 {
+  margin-left: 30px;
+  margin-bottom: 0;
+  width: 100%;
+  margin-top: 70px;
+}
+.list-one ul li {
+  margin-top: 10px;
+  padding-left: 0px;
+  list-style: none;
+  color: white;
+  width: 100%;
+}
+.list-two {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15%;
+}
+.list-two h3 {
+  margin-left: 30px;
+  margin-bottom: 0;
+  width: 100%;
+  margin-top: 70px;
+}
+.list-two ul li {
+  margin-top: 10px;
+  padding-left: 0px;
+  list-style: none;
+  color: white;
+  width: 100%;
+}
+.download {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 60%;
+  /* border:1px solid red; */
+}
+.download .playstore {
+  /* background-color: rgb(241, 228, 228); */
+  display: flex;
+  width: 30%;
+  background-color: green;
+  color: white;
+  margin-top: 60px;
+  margin-left: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 4px;
+}
+.icon {
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.google {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.download .appstore {
+  /* background-color: rgb(241, 228, 228); */
+  display: flex;
+  width: 30%;
+  background-color: green;
+  color: white;
+  margin-top: 60px;
+  margin-left: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 4px;
+}

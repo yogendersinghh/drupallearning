@@ -1,0 +1,19 @@
+name: "yogi"
+description: this  is a custom theme created by yogender singh
+base theme: stable
+core_version_requirement: ^8 || ^9
+type: theme
+package: other
+screenshot: yogender.png
+libraries:
+  - yogender/global-css-and-js
+regions:
+  social_links: "Social Links"
+  menu: "Menu"
+  side_bar_1: "Side Bar 1"
+  side_bar_2: "Side Bar 2"
+  content: "Content"
+  footer_bottom_1: "Footer Bottom 1"
+  footer_bottom_2: "Footer Bottom 2"
+  footer_bottom_3: "Footer Bottom 3"
+  footer_bottom_4: "Footer Bottom 4"
